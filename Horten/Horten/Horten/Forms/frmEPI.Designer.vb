@@ -58,10 +58,10 @@ Partial Class frmEPI
         Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn7 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn8 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn12 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn9 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn10 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn11 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn12 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.RepositoryItemLookUpEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.GroupBox1.SuspendLayout()
         CType(Me.txtDTDevolucao.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -534,6 +534,14 @@ Partial Class frmEPI
         Me.GridColumn8.VisibleIndex = 0
         Me.GridColumn8.Width = 241
         '
+        'GridColumn12
+        '
+        Me.GridColumn12.Caption = "Usados"
+        Me.GridColumn12.FieldName = "Usados"
+        Me.GridColumn12.Name = "GridColumn12"
+        Me.GridColumn12.Visible = True
+        Me.GridColumn12.VisibleIndex = 3
+        '
         'GridColumn9
         '
         Me.GridColumn9.Caption = "Descrição"
@@ -558,14 +566,6 @@ Partial Class frmEPI
         Me.GridColumn11.Visible = True
         Me.GridColumn11.VisibleIndex = 8
         '
-        'GridColumn12
-        '
-        Me.GridColumn12.Caption = "Usados"
-        Me.GridColumn12.FieldName = "Usados"
-        Me.GridColumn12.Name = "GridColumn12"
-        Me.GridColumn12.Visible = True
-        Me.GridColumn12.VisibleIndex = 3
-        '
         'RepositoryItemLookUpEdit1
         '
         Me.RepositoryItemLookUpEdit1.AutoHeight = False
@@ -577,7 +577,7 @@ Partial Class frmEPI
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1332, 641)
+        Me.ClientSize = New System.Drawing.Size(979, 641)
         Me.Controls.Add(Me.btIncluir)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "frmEPI"

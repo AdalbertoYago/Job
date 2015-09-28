@@ -370,3 +370,7 @@ C:\Users\Matheus\Dropbox\Horten\Horten\Horten\bin\Release\PrismaLibrary.xml
 C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.TrustInfo.xml
 C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.exe.manifest
 C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.application
+C:\Users\Adalberto\Documents\GitHub\Job\Horten\Horten\Horten\bin\Release\Horten.exe.config
+C:\Users\Adalberto\Documents\GitHub\Job\Horten\Horten\Horten\obj\Release\Horten.exe
+C:\Users\Adalberto\Documents\GitHub\Job\Horten\Horten\Horten\obj\Release\Horten.xml
+C:\Users\Adalberto\Documents\GitHub\Job\Horten\Horten\Horten\obj\Release\Horten.pdb
