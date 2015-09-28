@@ -1,0 +1,372 @@
+D:\Desenvolvimento\Horten\Horten\Horten\bin\Release\Horten.exe.manifest
+D:\Desenvolvimento\Horten\Horten\Horten\bin\Release\Horten.application
+D:\Desenvolvimento\Horten\Horten\Horten\bin\Release\Horten.exe
+D:\Desenvolvimento\Horten\Horten\Horten\bin\Release\Horten.pdb
+D:\Desenvolvimento\Horten\Horten\Horten\bin\Release\Horten.xml
+D:\Desenvolvimento\Horten\Horten\Horten\bin\Release\PrismaLibrary.dll
+D:\Desenvolvimento\Horten\Horten\Horten\bin\Release\PrismaLibrary.pdb
+D:\Desenvolvimento\Horten\Horten\Horten\bin\Release\PrismaLibrary.xml
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\ResolveAssemblyReference.cache
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmHistoricoInventario.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.relOndeUsa.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmItemFornecidoRecebido.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompraConsulta.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompra.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialBaixa.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmAtualzaUltimaCompra.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmCalculoMinimo.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmImprimeEtiqueta.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.relEtiqueta.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaEstoque.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaMP.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaSubCJ.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaProdutos.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmKardexContabil.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmBalanco.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmKardexEmpenho.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmImpressoras.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmKardex.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmLancamentosEstoque.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmLogin.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmManutencaoEstoque.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmMenuRibbon.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmOndeUsa.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmRecalcEmpenho.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterial.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialConsulta.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.RelItemFornecidoRecebido.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.Resources.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEntradaSaida.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmRelCusto.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEstoque.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.XtraFichaKardex.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.XtraSolicitacao.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao.resources
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.vbproj.GenerateResource.Cache
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.exe.licenses
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.exe.manifest
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.application
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.exe
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.xml
+D:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.pdb
+F:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.exe
+F:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.xml
+F:\Desenvolvimento\Horten\Horten\Horten\obj\Release\Horten.pdb
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.vbprojResolveAssemblyReference.cache
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmHistoricoInventario.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.relOndeUsa.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmEPI.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompraConsulta.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompra.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialBaixa.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmAtualzaUltimaCompra.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmCalculoMinimo.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmImprimeEtiqueta.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.relEtiqueta.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaEstoque.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaMP.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaSubCJ.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaProdutos.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmKardexContabil.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmBalanco.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmKardexEmpenho.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmImpressoras.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmKardex.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmLancamentosEstoque.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmLogin.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmManutencaoEstoque.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmMenuRibbon.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmOndeUsa.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmRecalcEmpenho.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterial.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialConsulta.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.Resources.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmQtdeMP.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmProdutoMP.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEntradaSaida.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmRelCusto.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEstoque.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.Reportalado.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.ReportClassica.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.ReportUsinart.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.XtraFichaKardex.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao2.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.XtraSolicitacao.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.vbproj.GenerateResource.Cache
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.exe
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.xml
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.pdb
+F:\SistemasVS2012\Horten\Horten\Horten\bin\Release\Horten.exe.config
+F:\SistemasVS2012\Horten\Horten\Horten\bin\Release\Horten.exe.manifest
+F:\SistemasVS2012\Horten\Horten\Horten\bin\Release\Horten.application
+F:\SistemasVS2012\Horten\Horten\Horten\bin\Release\Horten.exe
+F:\SistemasVS2012\Horten\Horten\Horten\bin\Release\Horten.pdb
+F:\SistemasVS2012\Horten\Horten\Horten\bin\Release\Horten.xml
+F:\SistemasVS2012\Horten\Horten\Horten\bin\Release\PrismaLibrary.pdb
+F:\SistemasVS2012\Horten\Horten\Horten\bin\Release\PrismaLibrary.xml
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.exe.manifest
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.application
+\\192.168.1.254\ti\SistemasVS12\Horten\Horten\Horten\bin\Release\Horten.exe.config
+\\192.168.1.254\ti\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.exe
+\\192.168.1.254\ti\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.xml
+\\192.168.1.254\ti\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.pdb
+Z:\SistemasVS12\Horten\Horten\Horten\bin\Release\Horten.exe.config
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.exe
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.xml
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.pdb
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.vbprojResolveAssemblyReference.cache
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmHistoricoInventario.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.relOndeUsa.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmEPI.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompraConsulta.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompra.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialBaixa.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmAtualzaUltimaCompra.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmCalculoMinimo.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmImprimeEtiqueta.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.relEtiqueta.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaEstoque.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaMP.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaSubCJ.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaProdutos.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmKardexContabil.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmBalanco.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmKardexEmpenho.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmImpressoras.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmKardex.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmLancamentosEstoque.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmLogin.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmManutencaoEstoque.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmMenuRibbon.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmOndeUsa.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmRecalcEmpenho.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterial.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialConsulta.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.Resources.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmQtdeMP.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmProdutoMP.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEntradaSaida.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmRelCusto.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEstoque.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.Reportalado.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.ReportClassica.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.ReportUsinart.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.XtraFichaKardex.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao2.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.XtraSolicitacao.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao.resources
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.vbproj.GenerateResource.Cache
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.exe.licenses
+Z:\SistemasVS12\Horten\Horten\Horten\bin\Release\Horten.exe.manifest
+Z:\SistemasVS12\Horten\Horten\Horten\bin\Release\Horten.application
+Z:\SistemasVS12\Horten\Horten\Horten\bin\Release\Horten.exe
+Z:\SistemasVS12\Horten\Horten\Horten\bin\Release\Horten.pdb
+Z:\SistemasVS12\Horten\Horten\Horten\bin\Release\Horten.xml
+Z:\SistemasVS12\Horten\Horten\Horten\bin\Release\PrismaLibrary.dll
+Z:\SistemasVS12\Horten\Horten\Horten\bin\Release\PrismaLibrary.pdb
+Z:\SistemasVS12\Horten\Horten\Horten\bin\Release\PrismaLibrary.xml
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.exe.manifest
+Z:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.application
+Y:\SistemasVS12\Horten\Horten\Horten\bin\Release\Horten.exe.config
+Y:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.exe
+Y:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.xml
+Y:\SistemasVS12\Horten\Horten\Horten\obj\Release\Horten.pdb
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\bin\Release\Horten.exe.config
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.exe
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.xml
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.pdb
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.vbprojResolveAssemblyReference.cache
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmHistoricoInventario.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.relOndeUsa.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmEPI.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompraConsulta.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompra.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialBaixa.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmAtualzaUltimaCompra.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmCalculoMinimo.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmImprimeEtiqueta.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.relEtiqueta.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaEstoque.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaMP.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaSubCJ.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaProdutos.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmKardexContabil.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmBalanco.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmKardexEmpenho.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmImpressoras.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmKardex.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmLancamentosEstoque.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmLogin.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmManutencaoEstoque.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmOndeUsa.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmRecalcEmpenho.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterial.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialConsulta.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.Resources.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmQtdeMP.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmProdutoMP.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEntradaSaida.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmRelCusto.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEstoque.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.Reportalado.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.ReportClassica.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.ReportUsinart.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.XtraFichaKardex.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao2.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.XtraSolicitacao.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.vbproj.GenerateResource.Cache
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\bin\Release\Horten.exe.manifest
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\bin\Release\Horten.application
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\bin\Release\Horten.exe
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\bin\Release\Horten.pdb
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\bin\Release\Horten.xml
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\bin\Release\PrismaLibrary.pdb
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\bin\Release\PrismaLibrary.xml
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.frmMenuRibbon.resources
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.exe.manifest
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.application
+F:\Desenvolvimento\Sistemas - SQL\Horten\Horten\Horten\obj\Release\Horten.exe.licenses
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.exe.licenses
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.FRMRecebimento.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.ReportForma.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.FichaEstoque1.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaMP.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmFichaEstoque.resources
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.frmRegistroInventario.resources
+E:\SistemasVS2012\Horten\Horten\Horten\bin\Release\Horten.exe.config
+E:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.exe
+E:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.xml
+E:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.pdb
+F:\SistemasVS2012\Horten\Horten\Horten\obj\Release\Horten.TrustInfo.xml
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\bin\Release\Horten.exe.config
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.exe
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.xml
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.pdb
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.vbprojResolveAssemblyReference.cache
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmHistoricoInventario.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.relOndeUsa.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEPI.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompraConsulta.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompra.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialBaixa.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmAtualzaUltimaCompra.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmCalculoMinimo.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmImprimeEtiqueta.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.relEtiqueta.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaEstoque.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaMP.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaSubCJ.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaProdutos.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmKardexContabil.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmBalanco.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmKardexEmpenho.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmImpressoras.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmKardex.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmLancamentosEstoque.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmLogin.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmManutencaoEstoque.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmMenuRibbon.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmOndeUsa.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRecalcEmpenho.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterial.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialConsulta.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.FRMRecebimento.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.Resources.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.FichaEstoque1.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaMP.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmFichaEstoque.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmQtdeMP.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmProdutoMP.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRegistroInventario.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEntradaSaida.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRelCusto.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEstoque.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.Reportalado.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.ReportClassica.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.ReportForma.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.ReportUsinart.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.XtraFichaKardex.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao2.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.XtraSolicitacao.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao.resources
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.vbproj.GenerateResource.Cache
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.exe.licenses
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\bin\Release\Horten.exe.manifest
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\bin\Release\Horten.application
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\bin\Release\Horten.exe
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\bin\Release\Horten.pdb
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\bin\Release\Horten.xml
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\bin\Release\PrismaLibrary.pdb
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\bin\Release\PrismaLibrary.xml
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.TrustInfo.xml
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.exe.manifest
+C:\Users\Adalberto\Dropbox\Horten\Horten\Horten\obj\Release\Horten.application
+C:\Users\adalbertoyago\Dropbox\Horten\Horten\Horten\bin\Release\Horten.exe.config
+C:\Users\adalbertoyago\Dropbox\Horten\Horten\Horten\obj\Release\Horten.exe
+C:\Users\adalbertoyago\Dropbox\Horten\Horten\Horten\obj\Release\Horten.xml
+C:\Users\adalbertoyago\Dropbox\Horten\Horten\Horten\obj\Release\Horten.pdb
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\bin\Release\Horten.exe.config
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.exe
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.xml
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.pdb
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.vbprojResolveAssemblyReference.cache
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmHistoricoInventario.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.relOndeUsa.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEPI.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompraConsulta.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmSolicitacaoCompra.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialBaixa.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmAtualzaUltimaCompra.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmCalculoMinimo.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmImprimeEtiqueta.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.relEtiqueta.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaEstoque.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaBaixaMP.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaSubCJ.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaProdutos.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmKardexContabil.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmBalanco.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmKardexEmpenho.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmImpressoras.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmKardex.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmLancamentosEstoque.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmLogin.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmManutencaoEstoque.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmMenuRibbon.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmOndeUsa.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRecalcEmpenho.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterial.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRequisicaoMaterialConsulta.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.FRMRecebimento.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.Resources.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.FichaEstoque1.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmEstruturaMP.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmFichaEstoque.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmQtdeMP.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmProdutoMP.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRegistroInventario.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEntradaSaida.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRelCusto.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.frmRelPosicaoEstoque.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.Reportalado.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.ReportClassica.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.ReportForma.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.ReportUsinart.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.XtraFichaKardex.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao2.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.XtraSolicitacao.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.XtraRequisicao.resources
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.vbproj.GenerateResource.Cache
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.exe.licenses
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\bin\Release\Horten.exe.manifest
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\bin\Release\Horten.application
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\bin\Release\Horten.exe
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\bin\Release\Horten.pdb
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\bin\Release\Horten.xml
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\bin\Release\PrismaLibrary.pdb
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\bin\Release\PrismaLibrary.xml
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.TrustInfo.xml
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.exe.manifest
+C:\Users\Matheus\Dropbox\Horten\Horten\Horten\obj\Release\Horten.application

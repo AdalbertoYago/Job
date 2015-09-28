@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <PublishUrlHistory>\\192.168.0.254\base\SetupSQL\Estoque.Net\|\\192.168.1.254\base\SetupSQL\Estoque.Net\|\\192.168.1.254\base\Estoque.Net\|\\192.168.1.254\base\Horten\|\\192.168.1.3\base\Horten\</PublishUrlHistory>
+    <InstallUrlHistory>\\192.168.0.254\base\SetupSQL\Estoque.Net\|\\192.168.1.254\base\SetupSQL\Estoque.Net\|\\192.168.1.254\base\Estoque.Net\|\\192.168.1.254\base\Horten\|\\192.168.1.3\base\Horten\</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ErrorReportUrlHistory />
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+</Project>
