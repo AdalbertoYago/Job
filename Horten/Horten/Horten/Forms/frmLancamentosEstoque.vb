@@ -23,7 +23,7 @@ Public Class frmLancamentosEstoque
 
         '## CASO NAO ENCONTRE NADA EM NENHUM DOS SELECTS ANTERIORES EU EXIBO A GRID EM BRANCO
         datPubsP13.Clear()
-        gVSQL = "select CDProduto,Descricao,'01/01/1900' as Data,'0' as Requisitante,Unidade,0.00 as SaldoEmpenho, 0.00 as SaldoEstoque, 0.00 as Qtde, Valor,CDFornec1,'' as TipoKardex, '' As Obs "
+        gVSQL = "select CDProduto,Descricao,'01/01/1900' as Data,'0' as Requisitante,Unidade,0.00 as SaldoEmpenho, 0.00 as SaldoEstoque, 0.00 as Qtde, Valor,CDFornec1,'' as TipoKardex "
         gVSQL &= " from Estoque where 1<>1"
         adaptSQL = New SqlClient.SqlDataAdapter(gVSQL, conSQL2)
         adaptSQL.Fill(datPubsP13, "sItem")
@@ -140,19 +140,13 @@ Public Class frmLancamentosEstoque
         conSQL4 = conn.sqlConnect(gDataSource, gUserID, gPWD, gInitialCatalog)
 
         Dim i As Integer = 0
-        Dim sCDProduto, sDescricao, sTipoKardex, sTipoKardexDescricao, sObs As String
+        Dim sCDProduto, sDescricao, sTipoKardex, sTipoKardexDescricao As String
         Dim dQtde, dQtdeNova As Decimal
         Dim dQtdeEntrada As Decimal
         Dim dQtdeEmpenho As Decimal
 
         For i = 0 To GridView1.RowCount - 1 Step 1
             sCDProduto = GridView1.GetDataRow(i).Item("CDProduto")
-            Try
-                sObs = GridView1.GetDataRow(i).Item("Obs")
-            Catch
-                sObs = ""
-            End Try
-
             Try
                 sDescricao = GridView1.GetDataRow(i).Item("Descricao")
             Catch
@@ -258,11 +252,7 @@ Public Class frmLancamentosEstoque
                 querySQLProc.Parameters.Add(New SqlClient.SqlParameter("@CDRequisitante", gUsuario.ToUpper()))
                 querySQLProc.Parameters.Add(New SqlClient.SqlParameter("@VLUnitario", 0))
                 querySQLProc.Parameters.Add(New SqlClient.SqlParameter("@Status", sTipoKardex))
-                If sObs <> "" Then
-                    querySQLProc.Parameters.Add(New SqlClient.SqlParameter("@Obs", "Lanç. Manual " & sTipoKardexDescricao & " | " & sObs & " | " & sUsuario.ToUpper()))
-                Else
-                    querySQLProc.Parameters.Add(New SqlClient.SqlParameter("@Obs", "Lanç. Manual " & sTipoKardexDescricao & " | " & sUsuario.ToUpper()))
-                End If
+                querySQLProc.Parameters.Add(New SqlClient.SqlParameter("@Obs", "Lanç. Manual " & sTipoKardexDescricao & " | " & sUsuario.ToUpper()))
                 querySQLProc.ExecuteNonQuery()
                 querySQLProc.Parameters.Clear()
                 conSQL4.Close()

@@ -29,7 +29,6 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn13 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn5 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn7 = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -43,6 +42,8 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.bt0Alterar = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.BTImprimirGrade = New DevExpress.XtraEditors.SimpleButton()
+        Me.GridColumn13 = New DevExpress.XtraGrid.Columns.GridColumn()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -60,6 +61,7 @@ Partial Class frmRequisicaoMaterialConsulta
         '
         'GridControl1
         '
+        Me.GridControl1.Cursor = System.Windows.Forms.Cursors.Default
         Me.GridControl1.Location = New System.Drawing.Point(5, 23)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
@@ -208,16 +210,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.GridColumn4.OptionsFilter.AllowFilter = False
         Me.GridColumn4.Visible = True
         Me.GridColumn4.VisibleIndex = 4
-        Me.GridColumn4.Width = 338
-        '
-        'GridColumn13
-        '
-        Me.GridColumn13.Caption = "End"
-        Me.GridColumn13.FieldName = "Endereco"
-        Me.GridColumn13.Name = "GridColumn13"
-        Me.GridColumn13.Visible = True
-        Me.GridColumn13.VisibleIndex = 5
-        Me.GridColumn13.Width = 94
+        Me.GridColumn4.Width = 359
         '
         'GridColumn5
         '
@@ -230,7 +223,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.GridColumn5.OptionsFilter.AllowFilter = False
         Me.GridColumn5.Visible = True
         Me.GridColumn5.VisibleIndex = 6
-        Me.GridColumn5.Width = 67
+        Me.GridColumn5.Width = 68
         '
         'GridColumn6
         '
@@ -243,7 +236,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.GridColumn6.OptionsFilter.AllowFilter = False
         Me.GridColumn6.Visible = True
         Me.GridColumn6.VisibleIndex = 7
-        Me.GridColumn6.Width = 69
+        Me.GridColumn6.Width = 70
         '
         'GridColumn7
         '
@@ -269,7 +262,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.GridColumn8.OptionsFilter.AllowFilter = False
         Me.GridColumn8.Visible = True
         Me.GridColumn8.VisibleIndex = 8
-        Me.GridColumn8.Width = 252
+        Me.GridColumn8.Width = 221
         '
         'GridColumn9
         '
@@ -282,7 +275,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.GridColumn9.OptionsFilter.AllowFilter = False
         Me.GridColumn9.Visible = True
         Me.GridColumn9.VisibleIndex = 9
-        Me.GridColumn9.Width = 132
+        Me.GridColumn9.Width = 140
         '
         'GridColumn10
         '
@@ -295,7 +288,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.GridColumn10.OptionsFilter.AllowFilter = False
         Me.GridColumn10.Visible = True
         Me.GridColumn10.VisibleIndex = 10
-        Me.GridColumn10.Width = 99
+        Me.GridColumn10.Width = 105
         '
         'GridColumn11
         '
@@ -307,7 +300,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.GridColumn11.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.[False]
         Me.GridColumn11.Visible = True
         Me.GridColumn11.VisibleIndex = 11
-        Me.GridColumn11.Width = 99
+        Me.GridColumn11.Width = 105
         '
         'GridColumn12
         '
@@ -319,7 +312,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.GridColumn12.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.[False]
         Me.GridColumn12.Visible = True
         Me.GridColumn12.VisibleIndex = 12
-        Me.GridColumn12.Width = 128
+        Me.GridColumn12.Width = 117
         '
         'SimpleButton1
         '
@@ -343,7 +336,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.bt0Excluir.Appearance.Options.UseBackColor = True
         Me.bt0Excluir.Appearance.Options.UseForeColor = True
         Me.bt0Excluir.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.bt0Excluir.Location = New System.Drawing.Point(259, 637)
+        Me.bt0Excluir.Location = New System.Drawing.Point(367, 638)
         Me.bt0Excluir.LookAndFeel.SkinName = "Money Twins"
         Me.bt0Excluir.LookAndFeel.UseDefaultLookAndFeel = False
         Me.bt0Excluir.Name = "bt0Excluir"
@@ -385,7 +378,7 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.SimpleButton3.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.SimpleButton3.Appearance.Options.UseBackColor = True
         Me.SimpleButton3.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.SimpleButton3.Location = New System.Drawing.Point(178, 637)
+        Me.SimpleButton3.Location = New System.Drawing.Point(286, 638)
         Me.SimpleButton3.LookAndFeel.SkinName = "Money Twins"
         Me.SimpleButton3.LookAndFeel.UseDefaultLookAndFeel = False
         Me.SimpleButton3.Name = "SimpleButton3"
@@ -393,11 +386,29 @@ Partial Class frmRequisicaoMaterialConsulta
         Me.SimpleButton3.TabIndex = 194
         Me.SimpleButton3.Text = "Atualizar"
         '
+        'BTImprimirGrade
+        '
+        Me.BTImprimirGrade.Location = New System.Drawing.Point(178, 638)
+        Me.BTImprimirGrade.Name = "BTImprimirGrade"
+        Me.BTImprimirGrade.Size = New System.Drawing.Size(102, 34)
+        Me.BTImprimirGrade.TabIndex = 195
+        Me.BTImprimirGrade.Text = "Imprimir Grade"
+        '
+        'GridColumn13
+        '
+        Me.GridColumn13.Caption = "End"
+        Me.GridColumn13.FieldName = "Endereco"
+        Me.GridColumn13.Name = "GridColumn13"
+        Me.GridColumn13.Visible = True
+        Me.GridColumn13.VisibleIndex = 5
+        Me.GridColumn13.Width = 93
+        '
         'frmRequisicaoMaterialConsulta
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1172, 684)
+        Me.Controls.Add(Me.BTImprimirGrade)
         Me.Controls.Add(Me.SimpleButton3)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.SimpleButton1)
@@ -433,5 +444,6 @@ Partial Class frmRequisicaoMaterialConsulta
     Friend WithEvents GridColumn11 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn12 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents BTImprimirGrade As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents GridColumn13 As DevExpress.XtraGrid.Columns.GridColumn
 End Class

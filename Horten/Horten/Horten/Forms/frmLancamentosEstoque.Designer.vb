@@ -22,29 +22,29 @@ Partial Class frmLancamentosEstoque
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
-        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn7 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn11 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn5 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.RepositoryItemLookUpEdit3 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
-        Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn8 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn10 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.RepositoryItemLookUpEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
-        Me.RepositoryItemLookUpEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.RadioEstoque = New System.Windows.Forms.RadioButton()
-        Me.RadioEmpenho = New System.Windows.Forms.RadioButton()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.GridColumn9 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridControl1 = New DevExpress.XtraGrid.GridControl
+        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView
+        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn7 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn11 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn5 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.RepositoryItemLookUpEdit3 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+        Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn8 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn9 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn10 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.RepositoryItemLookUpEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+        Me.RepositoryItemLookUpEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton
+        Me.RadioEstoque = New System.Windows.Forms.RadioButton
+        Me.RadioEmpenho = New System.Windows.Forms.RadioButton
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox
+        Me.Label1 = New System.Windows.Forms.Label
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RepositoryItemLookUpEdit3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -55,7 +55,6 @@ Partial Class frmLancamentosEstoque
         'GridControl1
         '
         Me.GridControl1.AllowDrop = True
-        Me.GridControl1.Cursor = System.Windows.Forms.Cursors.Default
         Me.GridControl1.Location = New System.Drawing.Point(7, 45)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
@@ -257,7 +256,7 @@ Partial Class frmLancamentosEstoque
         '
         Me.RepositoryItemLookUpEdit3.AutoHeight = False
         Me.RepositoryItemLookUpEdit3.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit3.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDSetor", "Código"), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descricao", 100, "Descrição")})
+        Me.RepositoryItemLookUpEdit3.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDSetor", "Código", 20, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.[Default], DevExpress.Data.ColumnSortOrder.None), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descricao", "Descrição", 100)})
         Me.RepositoryItemLookUpEdit3.DisplayMember = "Descricao"
         Me.RepositoryItemLookUpEdit3.Name = "RepositoryItemLookUpEdit3"
         Me.RepositoryItemLookUpEdit3.NullText = "[Digite algo para buscar]"
@@ -269,20 +268,27 @@ Partial Class frmLancamentosEstoque
         Me.GridColumn6.Caption = "Tipo de Lançamento"
         Me.GridColumn6.FieldName = "TipoKardex"
         Me.GridColumn6.Name = "GridColumn6"
-        Me.GridColumn6.OptionsColumn.AllowEdit = False
-        Me.GridColumn6.OptionsColumn.AllowFocus = False
         Me.GridColumn6.Visible = True
         Me.GridColumn6.VisibleIndex = 6
-        Me.GridColumn6.Width = 108
+        Me.GridColumn6.Width = 149
         '
         'GridColumn8
         '
-        Me.GridColumn8.Caption = "Saldo Est."
+        Me.GridColumn8.Caption = "Saldo Estoque"
         Me.GridColumn8.FieldName = "SaldoEstoque"
         Me.GridColumn8.Name = "GridColumn8"
         Me.GridColumn8.Visible = True
         Me.GridColumn8.VisibleIndex = 7
-        Me.GridColumn8.Width = 74
+        Me.GridColumn8.Width = 102
+        '
+        'GridColumn9
+        '
+        Me.GridColumn9.Caption = "Empenhado"
+        Me.GridColumn9.FieldName = "SaldoEmpenho"
+        Me.GridColumn9.Name = "GridColumn9"
+        Me.GridColumn9.Visible = True
+        Me.GridColumn9.VisibleIndex = 8
+        Me.GridColumn9.Width = 105
         '
         'GridColumn10
         '
@@ -291,14 +297,14 @@ Partial Class frmLancamentosEstoque
         Me.GridColumn10.FieldName = "CDFornec1"
         Me.GridColumn10.Name = "GridColumn10"
         Me.GridColumn10.Visible = True
-        Me.GridColumn10.VisibleIndex = 8
-        Me.GridColumn10.Width = 119
+        Me.GridColumn10.VisibleIndex = 9
+        Me.GridColumn10.Width = 155
         '
         'RepositoryItemLookUpEdit2
         '
         Me.RepositoryItemLookUpEdit2.AutoHeight = False
         Me.RepositoryItemLookUpEdit2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit2.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDFornec", "Código"), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Nome", 70, "Fornecedor")})
+        Me.RepositoryItemLookUpEdit2.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDFornec", "Código", 20, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.[Default], DevExpress.Data.ColumnSortOrder.None), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Nome", "Fornecedor", 70)})
         Me.RepositoryItemLookUpEdit2.DisplayMember = "Nome"
         Me.RepositoryItemLookUpEdit2.Name = "RepositoryItemLookUpEdit2"
         Me.RepositoryItemLookUpEdit2.NullText = ""
@@ -309,7 +315,7 @@ Partial Class frmLancamentosEstoque
         '
         Me.RepositoryItemLookUpEdit1.AutoHeight = False
         Me.RepositoryItemLookUpEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit1.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Status", "Tipo"), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descricao", 120, "Descrição")})
+        Me.RepositoryItemLookUpEdit1.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Status", "Tipo", 20, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.[Default], DevExpress.Data.ColumnSortOrder.None), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descricao", "Descrição", 120)})
         Me.RepositoryItemLookUpEdit1.DisplayMember = "Status"
         Me.RepositoryItemLookUpEdit1.Name = "RepositoryItemLookUpEdit1"
         Me.RepositoryItemLookUpEdit1.NullText = "[Digite algo para buscar]"
@@ -393,15 +399,6 @@ Partial Class frmLancamentosEstoque
         Me.Label1.TabIndex = 210
         Me.Label1.Text = "Tipo Lançamento"
         '
-        'GridColumn9
-        '
-        Me.GridColumn9.Caption = "Observação"
-        Me.GridColumn9.FieldName = "Obs"
-        Me.GridColumn9.Name = "GridColumn9"
-        Me.GridColumn9.Visible = True
-        Me.GridColumn9.VisibleIndex = 9
-        Me.GridColumn9.Width = 279
-        '
         'frmLancamentosEstoque
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -439,6 +436,7 @@ Partial Class frmLancamentosEstoque
     Friend WithEvents GridColumn5 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn6 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn8 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GridColumn9 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn10 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents RepositoryItemLookUpEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
     Friend WithEvents RepositoryItemLookUpEdit2 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
@@ -449,5 +447,4 @@ Partial Class frmLancamentosEstoque
     Friend WithEvents RepositoryItemLookUpEdit3 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents GridColumn9 As DevExpress.XtraGrid.Columns.GridColumn
 End Class

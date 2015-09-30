@@ -16,7 +16,7 @@ Public Class ClassSqlConnection
                 conSQL.ConnectionString = "Integrated Security=False; Data Source=192.168.1.1; User ID=sa; Pwd=classica98!; Initial Catalog=PrismaAcesso;"
             Else
                 Try
-                    conSQL.ConnectionString = "Integrated Security=False; Data Source=192.168.0.1; User ID=sa; Pwd=alado69*; Initial Catalog=PrismaAcesso;"
+                    conSQL.ConnectionString = "Integrated Security=False; Data Source=192.168.0.1; User ID=sa; Pwd=alado; Initial Catalog=PrismaAcesso;"
                 Catch
                     conSQL.ConnectionString = "Integrated Security=False; Data Source=192.168.1.1; User ID=sa; Pwd=classica98!; Initial Catalog=PrismaAcesso;"
                 End Try

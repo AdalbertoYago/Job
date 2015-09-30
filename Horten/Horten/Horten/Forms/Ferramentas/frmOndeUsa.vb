@@ -29,7 +29,7 @@ Public Class frmOndeUsa
         'Produto
         If cbTipoEstoque.SelectedIndex <> 4 Then
             gVSQL = "Select Estrutura.*,Estoque.Descricao as Descricao2 From Estrutura Left Join Estoque On Estrutura.CDProduto = Estoque.CDProduto "
-            gVSQL &= "Where Cenario = 1 And CDMaterial = '" & sCDProduto & "' Order By Estrutura.CDProduto"
+            gVSQL &= "Where CDMaterial = '" & sCDProduto & "' Order By Estrutura.CDProduto"
         Else
             gVSQL = "Select EstruturaSubCJ.*,Estoque.Descricao as Descricao2 From EstruturaSUBCJ Left Join Estoque On EstruturaSubCJ.CDProduto = Estoque.CDProduto "
             gVSQL &= "Where CDItem = '" & sCDProduto & "' Order By EstruturaSubCJ.CDProduto"

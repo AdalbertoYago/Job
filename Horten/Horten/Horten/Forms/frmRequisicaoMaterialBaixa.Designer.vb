@@ -239,7 +239,7 @@ Partial Class frmRequisicaoMaterialBaixa
         Me.GridColumn4.OptionsFilter.AllowFilter = False
         Me.GridColumn4.Visible = True
         Me.GridColumn4.VisibleIndex = 4
-        Me.GridColumn4.Width = 369
+        Me.GridColumn4.Width = 359
         '
         'GridColumn5
         '
@@ -252,7 +252,7 @@ Partial Class frmRequisicaoMaterialBaixa
         Me.GridColumn5.OptionsFilter.AllowFilter = False
         Me.GridColumn5.Visible = True
         Me.GridColumn5.VisibleIndex = 6
-        Me.GridColumn5.Width = 65
+        Me.GridColumn5.Width = 68
         '
         'GridColumn6
         '
@@ -265,7 +265,7 @@ Partial Class frmRequisicaoMaterialBaixa
         Me.GridColumn6.OptionsFilter.AllowFilter = False
         Me.GridColumn6.Visible = True
         Me.GridColumn6.VisibleIndex = 7
-        Me.GridColumn6.Width = 67
+        Me.GridColumn6.Width = 90
         '
         'GridColumn7
         '
@@ -291,7 +291,7 @@ Partial Class frmRequisicaoMaterialBaixa
         Me.GridColumn8.OptionsFilter.AllowFilter = False
         Me.GridColumn8.Visible = True
         Me.GridColumn8.VisibleIndex = 8
-        Me.GridColumn8.Width = 229
+        Me.GridColumn8.Width = 237
         '
         'GridColumn9
         '
@@ -304,7 +304,7 @@ Partial Class frmRequisicaoMaterialBaixa
         Me.GridColumn9.OptionsFilter.AllowFilter = False
         Me.GridColumn9.Visible = True
         Me.GridColumn9.VisibleIndex = 9
-        Me.GridColumn9.Width = 131
+        Me.GridColumn9.Width = 129
         '
         'GridColumn10
         '
@@ -316,7 +316,7 @@ Partial Class frmRequisicaoMaterialBaixa
         Me.GridColumn10.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.[False]
         Me.GridColumn10.Visible = True
         Me.GridColumn10.VisibleIndex = 10
-        Me.GridColumn10.Width = 98
+        Me.GridColumn10.Width = 97
         '
         'GridColumn11
         '
@@ -328,7 +328,7 @@ Partial Class frmRequisicaoMaterialBaixa
         Me.GridColumn11.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.[False]
         Me.GridColumn11.Visible = True
         Me.GridColumn11.VisibleIndex = 11
-        Me.GridColumn11.Width = 98
+        Me.GridColumn11.Width = 97
         '
         'GridColumn12
         '
@@ -340,7 +340,7 @@ Partial Class frmRequisicaoMaterialBaixa
         Me.GridColumn12.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.[False]
         Me.GridColumn12.Visible = True
         Me.GridColumn12.VisibleIndex = 12
-        Me.GridColumn12.Width = 132
+        Me.GridColumn12.Width = 108
         '
         'SimpleButton1
         '
@@ -414,7 +414,7 @@ Partial Class frmRequisicaoMaterialBaixa
         Me.GridColumn13.Name = "GridColumn13"
         Me.GridColumn13.Visible = True
         Me.GridColumn13.VisibleIndex = 5
-        Me.GridColumn13.Width = 89
+        Me.GridColumn13.Width = 93
         '
         'frmRequisicaoMaterialBaixa
         '

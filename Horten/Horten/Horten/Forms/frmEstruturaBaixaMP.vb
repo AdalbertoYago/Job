@@ -225,10 +225,6 @@ Public Class frmEstruturaBaixaMP
             MessageBox.Show("Você não tem acesso a essa opção. Contacte o Administrador!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
         End If
     End Sub
-
-    Private Sub frmEstruturaBaixaMP_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class
 
 

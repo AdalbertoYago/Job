@@ -20,7 +20,6 @@ Public Class frmRelPosicaoEntradaSaida
     End Sub
 
     Private Sub bt0Buscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bt0Buscar.Click
-        Me.Cursor = Cursors.WaitCursor
         conSQL2 = conn.sqlConnect(gDataSource, gUserID, gPWD, gInitialCatalog)
         conSQL2.Open()
         Dim gTipoEstoque As String = ""
@@ -36,17 +35,9 @@ Public Class frmRelPosicaoEntradaSaida
         Dim dData As Date = tbAte.Text
         'dData = dData.AddDays(1)
 
-        conSQL = conn.sqlConnect(gDataSource, gUserID, gPWD, gInitialCatalog)
-        conSQL.Open()
-        querySQl.Connection = conSQL
-        Try
-            querySQl.CommandText = "Drop Table TMP_RelPosEst"
-            querySQl.ExecuteNonQuery()
-        Catch
-        End Try
 
         If gTipoEstoque = "EPA" Then
-            gVSQL = "Select a.CDProduto,a.Descricao,a.Unidade,a.Minimo,a.Maximo,"
+            gVSQL = "select a.CDProduto,a.Descricao,a.Unidade,a.Minimo,a.Maximo,"
             gVSQL &= " (select top 1 b.saldo from Kardex b where a.CDProduto=b.CDProduto and b.Data >= convert(datetime,'01/01/2009',103)  order by registro desc) as Qtde, "
             gVSQL &= " (select top 1 b.saldo from Kardex2 b where a.CDProduto=b.CDProduto and b.Data >= convert(datetime,'01/01/2009',103) order by registro desc) as Empenho, "
 
@@ -70,7 +61,7 @@ Public Class frmRelPosicaoEntradaSaida
             gVSQL &= "((ISNULL((SELECT Sum(c.Saldo) FROM Prisma.dbo.Pedidos b, Prisma.dbo.ItemPed c, Prisma.dbo.Clientes d where b.CDEmpresa = c.CDEmpresa And b.CDPedido = c.CDPedido and b.CDCliente=d.CDCliente and d.ComporFaturamento=1 And c.CDProduto = a.CDProduto And c.Situacao=0),0) + "
             gVSQL &= "ISNULL((SELECT Sum(c.Saldo) FROM Prisma2.dbo.Pedidos b, Prisma2.dbo.ItemPed c, Prisma.dbo.Clientes d where b.CDEmpresa = c.CDEmpresa And b.CDPedido = c.CDPedido and b.CDCliente=d.CDCliente and d.ComporFaturamento=1 And c.CDProduto = a.CDProduto And c.Situacao=0),0))) - "
             gVSQL &= " (select top 1 b.saldo from Kardex b where a.CDProduto=b.CDProduto and b.Data >= convert(datetime,'01/01/2009',103)  order by registro desc) "
-            gVSQL &= " < 0 then 0 else "
+            gVSQL &= "<0 then 0 else "
             gVSQL &= "((ISNULL((SELECT Sum(c.Saldo) FROM Prisma.dbo.Pedidos b, Prisma.dbo.ItemPed c, Prisma.dbo.Clientes d where b.CDEmpresa = c.CDEmpresa And b.CDPedido = c.CDPedido and b.CDCliente=d.CDCliente and d.ComporFaturamento=1 And c.CDProduto = a.CDProduto And c.Situacao=0),0) + "
             gVSQL &= "ISNULL((SELECT Sum(c.Saldo) FROM Prisma2.dbo.Pedidos b, Prisma2.dbo.ItemPed c, Prisma.dbo.Clientes d where b.CDEmpresa = c.CDEmpresa And b.CDPedido = c.CDPedido and b.CDCliente=d.CDCliente and d.ComporFaturamento=1 And c.CDProduto = a.CDProduto And c.Situacao=0),0))) - "
             gVSQL &= " (select top 1 b.saldo from Kardex b where a.CDProduto=b.CDProduto and b.Data >= convert(datetime,'01/01/2009',103)  order by registro desc)   "
@@ -78,10 +69,10 @@ Public Class frmRelPosicaoEntradaSaida
 
             If ckRevenda.Checked = True Then
                 sBusca &= " and ProdutoRevenda=1"
+
             End If
 
-            'gVSQL &= " Into TMP_RelPosEst From Estoque a " & sBusca & " and a.Descricao <> 'Livre' "
-            gVSQL &= " From Estoque a " & sBusca & " and a.Descricao <> 'Livre' And Idle = 0"
+            gVSQL &= " from Estoque a " & sBusca & " and a.Descricao <> 'Livre' "
             gVSQL &= " order by cdproduto"
 
         ElseIf gTipoEstoque = "EMP" Then
@@ -94,23 +85,12 @@ Public Class frmRelPosicaoEntradaSaida
             gVSQL &= "from estoque where estoque = '" & cbTipoEstoque.SelectedIndex & "' order by cdproduto"
         End If
 
-
-        'If CheckBox1.Checked = True Then
-        '    querySQl.CommandText = gVSQL
-        '    querySQl.CommandTimeout = 1000
-        '    querySQl.ExecuteNonQuery()
-        '    VSQL = "Select * From TMP_RelPosEst Where QtdeProduzir > 0 Order By CDProduto"
-        'Else
-        '    VSQL = gVSQL
-        'End If
+        'CARREGA Tipo de Endereco
         datPubsEstoque.Clear()
         adaptSQL = New SqlClient.SqlDataAdapter(gVSQL, conSQL2)
-        adaptSQL.SelectCommand.CommandTimeout = 1000
         adaptSQL.Fill(datPubsEstoque, "Estoque")
         GridControl1.DataSource = datPubsEstoque.Tables("Estoque")
-        conSQL1.Close()
-        conSQL2.Close()
-        Me.Cursor = Cursors.Default
+
     End Sub
 
     Public Sub imprimir()

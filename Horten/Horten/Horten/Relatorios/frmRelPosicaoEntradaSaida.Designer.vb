@@ -22,32 +22,32 @@ Partial Class frmRelPosicaoEntradaSaida
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Dim StyleFormatCondition2 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
-        Me.GridColumn9 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.components = New System.ComponentModel.Container
+        Dim StyleFormatCondition1 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition
+        Me.GridColumn9 = New DevExpress.XtraGrid.Columns.GridColumn
         Me.DockManager1 = New DevExpress.XtraBars.Docking.DockManager(Me.components)
-        Me.cbTipoEstoque = New System.Windows.Forms.ComboBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.bt0Buscar = New DevExpress.XtraEditors.SimpleButton()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
-        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn5 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn7 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn8 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.RepositoryItemLookUpEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
-        Me.RepositoryItemLookUpEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
-        Me.Filtros = New DevExpress.XtraEditors.GroupControl()
-        Me.ckRevenda = New System.Windows.Forms.CheckBox()
-        Me.tbAte = New DevExpress.XtraEditors.DateEdit()
-        Me.tbDe = New DevExpress.XtraEditors.DateEdit()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.cbTipoEstoque = New System.Windows.Forms.ComboBox
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.bt0Buscar = New DevExpress.XtraEditors.SimpleButton
+        Me.GridControl1 = New DevExpress.XtraGrid.GridControl
+        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView
+        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn5 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn7 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn8 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.RepositoryItemLookUpEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+        Me.RepositoryItemLookUpEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+        Me.Filtros = New DevExpress.XtraEditors.GroupControl
+        Me.ckRevenda = New System.Windows.Forms.CheckBox
+        Me.tbAte = New DevExpress.XtraEditors.DateEdit
+        Me.tbDe = New DevExpress.XtraEditors.DateEdit
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton
         CType(Me.DockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -55,9 +55,9 @@ Partial Class frmRelPosicaoEntradaSaida
         CType(Me.RepositoryItemLookUpEdit2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Filtros, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Filtros.SuspendLayout()
-        CType(Me.tbAte.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.tbAte.Properties.VistaTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tbAte.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.tbDe.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.tbDe.Properties.VistaTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tbDe.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -231,20 +231,21 @@ Partial Class frmRelPosicaoEntradaSaida
         Me.GridView1.Appearance.VertLine.BackColor = System.Drawing.Color.FromArgb(CType(CType(99, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(196, Byte), Integer))
         Me.GridView1.Appearance.VertLine.Options.UseBackColor = True
         Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn1, Me.GridColumn2, Me.GridColumn3, Me.GridColumn4, Me.GridColumn5, Me.GridColumn6, Me.GridColumn7, Me.GridColumn8, Me.GridColumn9})
-        StyleFormatCondition2.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        StyleFormatCondition2.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        StyleFormatCondition2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        StyleFormatCondition2.Appearance.ForeColor = System.Drawing.Color.White
-        StyleFormatCondition2.Appearance.Options.UseBackColor = True
-        StyleFormatCondition2.Appearance.Options.UseFont = True
-        StyleFormatCondition2.Appearance.Options.UseForeColor = True
-        StyleFormatCondition2.Column = Me.GridColumn9
-        StyleFormatCondition2.Condition = DevExpress.XtraGrid.FormatConditionEnum.Greater
-        StyleFormatCondition2.Value1 = 0
-        StyleFormatCondition2.Value2 = 0
-        Me.GridView1.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition2})
+        StyleFormatCondition1.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        StyleFormatCondition1.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        StyleFormatCondition1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        StyleFormatCondition1.Appearance.ForeColor = System.Drawing.Color.White
+        StyleFormatCondition1.Appearance.Options.UseBackColor = True
+        StyleFormatCondition1.Appearance.Options.UseFont = True
+        StyleFormatCondition1.Appearance.Options.UseForeColor = True
+        StyleFormatCondition1.Column = Me.GridColumn9
+        StyleFormatCondition1.Condition = DevExpress.XtraGrid.FormatConditionEnum.Greater
+        StyleFormatCondition1.Value1 = 0
+        StyleFormatCondition1.Value2 = 0
+        Me.GridView1.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition1})
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
+        Me.GridView1.OptionsPrint.UsePrintStyles = True
         Me.GridView1.OptionsSelection.MultiSelect = True
         Me.GridView1.OptionsView.ColumnAutoWidth = False
         Me.GridView1.OptionsView.EnableAppearanceEvenRow = True
@@ -263,7 +264,7 @@ Partial Class frmRelPosicaoEntradaSaida
         Me.GridColumn1.FieldName = "CDProduto"
         Me.GridColumn1.Name = "GridColumn1"
         Me.GridColumn1.OptionsFilter.AllowFilter = False
-        Me.GridColumn1.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Count)})
+        Me.GridColumn1.SummaryItem.SummaryType = DevExpress.Data.SummaryItemType.Count
         Me.GridColumn1.Visible = True
         Me.GridColumn1.VisibleIndex = 0
         Me.GridColumn1.Width = 54
@@ -318,7 +319,7 @@ Partial Class frmRelPosicaoEntradaSaida
         Me.GridColumn5.Caption = "Entrada"
         Me.GridColumn5.FieldName = "EntradaPA"
         Me.GridColumn5.Name = "GridColumn5"
-        Me.GridColumn5.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum)})
+        Me.GridColumn5.SummaryItem.SummaryType = DevExpress.Data.SummaryItemType.Sum
         Me.GridColumn5.Visible = True
         Me.GridColumn5.VisibleIndex = 4
         '
@@ -329,7 +330,7 @@ Partial Class frmRelPosicaoEntradaSaida
         Me.GridColumn6.Caption = "Saída"
         Me.GridColumn6.FieldName = "SaldoNF"
         Me.GridColumn6.Name = "GridColumn6"
-        Me.GridColumn6.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum)})
+        Me.GridColumn6.SummaryItem.SummaryType = DevExpress.Data.SummaryItemType.Sum
         Me.GridColumn6.Visible = True
         Me.GridColumn6.VisibleIndex = 5
         '
@@ -351,7 +352,7 @@ Partial Class frmRelPosicaoEntradaSaida
         Me.GridColumn8.Caption = "Pedidos Pendentes"
         Me.GridColumn8.FieldName = "QtdePendente"
         Me.GridColumn8.Name = "GridColumn8"
-        Me.GridColumn8.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum)})
+        Me.GridColumn8.SummaryItem.SummaryType = DevExpress.Data.SummaryItemType.Sum
         Me.GridColumn8.Visible = True
         Me.GridColumn8.VisibleIndex = 7
         Me.GridColumn8.Width = 128
@@ -360,7 +361,7 @@ Partial Class frmRelPosicaoEntradaSaida
         '
         Me.RepositoryItemLookUpEdit1.AutoHeight = False
         Me.RepositoryItemLookUpEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit1.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("NMFantasia", 50, "Comprador"), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDComprador", "Código")})
+        Me.RepositoryItemLookUpEdit1.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("NMFantasia", "Comprador", 50), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDComprador", "Código", 20, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.[Default], DevExpress.Data.ColumnSortOrder.None)})
         Me.RepositoryItemLookUpEdit1.DisplayMember = "NMFantasia"
         Me.RepositoryItemLookUpEdit1.Name = "RepositoryItemLookUpEdit1"
         Me.RepositoryItemLookUpEdit1.NullText = ""
@@ -371,7 +372,7 @@ Partial Class frmRelPosicaoEntradaSaida
         '
         Me.RepositoryItemLookUpEdit2.AutoHeight = False
         Me.RepositoryItemLookUpEdit2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit2.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Nome", 50, "Fornecedor"), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDFornec1", "Código")})
+        Me.RepositoryItemLookUpEdit2.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Nome", "Fornecedor", 50), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDFornec1", "Código", 20, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.[Default], DevExpress.Data.ColumnSortOrder.None)})
         Me.RepositoryItemLookUpEdit2.DisplayMember = "Nome"
         Me.RepositoryItemLookUpEdit2.Name = "RepositoryItemLookUpEdit2"
         Me.RepositoryItemLookUpEdit2.NullText = ""
@@ -412,7 +413,7 @@ Partial Class frmRelPosicaoEntradaSaida
         Me.tbAte.Location = New System.Drawing.Point(266, 43)
         Me.tbAte.Name = "tbAte"
         Me.tbAte.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.tbAte.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.tbAte.Properties.VistaTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton})
         Me.tbAte.Size = New System.Drawing.Size(100, 20)
         Me.tbAte.TabIndex = 70
         '
@@ -422,7 +423,7 @@ Partial Class frmRelPosicaoEntradaSaida
         Me.tbDe.Location = New System.Drawing.Point(160, 42)
         Me.tbDe.Name = "tbDe"
         Me.tbDe.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.tbDe.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.tbDe.Properties.VistaTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton})
         Me.tbDe.Size = New System.Drawing.Size(100, 20)
         Me.tbDe.TabIndex = 69
         '
@@ -478,9 +479,9 @@ Partial Class frmRelPosicaoEntradaSaida
         CType(Me.Filtros, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Filtros.ResumeLayout(False)
         Me.Filtros.PerformLayout()
-        CType(Me.tbAte.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.tbAte.Properties.VistaTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.tbAte.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.tbDe.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.tbDe.Properties.VistaTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.tbDe.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

@@ -22,42 +22,42 @@ Partial Class frmRequisicaoMaterial
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
-        Me.txtSetor = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.cbTipoEstoque = New System.Windows.Forms.ComboBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.bt0Incluir = New DevExpress.XtraEditors.SimpleButton()
-        Me.bt0NovoEndereco = New DevExpress.XtraEditors.SimpleButton()
-        Me.txtData = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtObs = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtRequisitante = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtCDRequisicao = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
-        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.RepositoryItemLookUpEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
-        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.RepositoryItemLookUpEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
-        Me.GridColumn5 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.GroupControl3 = New DevExpress.XtraEditors.GroupControl()
-        Me.cbCampo = New System.Windows.Forms.ComboBox()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.GridBusca = New DevExpress.XtraGrid.GridControl()
-        Me.GridView2 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.btBuscar = New DevExpress.XtraEditors.SimpleButton()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.txtChave = New System.Windows.Forms.TextBox()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl
+        Me.txtSetor = New System.Windows.Forms.TextBox
+        Me.Label5 = New System.Windows.Forms.Label
+        Me.cbTipoEstoque = New System.Windows.Forms.ComboBox
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.bt0Incluir = New DevExpress.XtraEditors.SimpleButton
+        Me.bt0NovoEndereco = New DevExpress.XtraEditors.SimpleButton
+        Me.txtData = New System.Windows.Forms.TextBox
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.txtObs = New System.Windows.Forms.TextBox
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.txtRequisitante = New System.Windows.Forms.TextBox
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.txtCDRequisicao = New System.Windows.Forms.TextBox
+        Me.Label7 = New System.Windows.Forms.Label
+        Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl
+        Me.GridControl1 = New DevExpress.XtraGrid.GridControl
+        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.RepositoryItemLookUpEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.RepositoryItemLookUpEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+        Me.GridColumn5 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton
+        Me.GroupControl3 = New DevExpress.XtraEditors.GroupControl
+        Me.cbCampo = New System.Windows.Forms.ComboBox
+        Me.Label11 = New System.Windows.Forms.Label
+        Me.GridBusca = New DevExpress.XtraGrid.GridControl
+        Me.GridView2 = New DevExpress.XtraGrid.Views.Grid.GridView
+        Me.btBuscar = New DevExpress.XtraEditors.SimpleButton
+        Me.Label10 = New System.Windows.Forms.Label
+        Me.txtChave = New System.Windows.Forms.TextBox
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
         CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -283,7 +283,7 @@ Partial Class frmRequisicaoMaterial
         '
         Me.RepositoryItemLookUpEdit1.AutoHeight = False
         Me.RepositoryItemLookUpEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit1.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDProduto", 50, "Código"), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descricao", 200, "Descrição")})
+        Me.RepositoryItemLookUpEdit1.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDProduto", "Código", 50), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descricao", "Descrição", 200)})
         Me.RepositoryItemLookUpEdit1.DisplayMember = "CDProduto"
         Me.RepositoryItemLookUpEdit1.DropDownRows = 17
         Me.RepositoryItemLookUpEdit1.MaxLength = 7
@@ -311,7 +311,7 @@ Partial Class frmRequisicaoMaterial
         Me.RepositoryItemLookUpEdit2.AutoHeight = False
         Me.RepositoryItemLookUpEdit2.AutoSearchColumnIndex = 1
         Me.RepositoryItemLookUpEdit2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit2.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDProduto", "Código"), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descricao", 100, "Descrição")})
+        Me.RepositoryItemLookUpEdit2.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CDProduto", "Código", 20, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.[Default], DevExpress.Data.ColumnSortOrder.None), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Descricao", "Descrição", 100)})
         Me.RepositoryItemLookUpEdit2.DisplayMember = "Descricao"
         Me.RepositoryItemLookUpEdit2.DropDownRows = 17
         Me.RepositoryItemLookUpEdit2.MaxLength = 7

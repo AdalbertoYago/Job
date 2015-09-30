@@ -23,10 +23,10 @@ Partial Class frmRelPosicaoEstoque
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim StyleFormatCondition1 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
-        Dim StyleFormatCondition2 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
-        Dim StyleFormatCondition3 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
-        Dim StyleFormatCondition4 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
+        Dim StyleFormatCondition5 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
+        Dim StyleFormatCondition6 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
+        Dim StyleFormatCondition7 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
+        Dim StyleFormatCondition8 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
         Me.GridColumn7 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn8 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn19 = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -495,7 +495,7 @@ Partial Class frmRelPosicaoEstoque
         'GridControl1
         '
         Me.GridControl1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.GridControl1.Location = New System.Drawing.Point(0, 75)
+        Me.GridControl1.Location = New System.Drawing.Point(-1, 78)
         Me.GridControl1.LookAndFeel.SkinName = "Black"
         Me.GridControl1.LookAndFeel.UseDefaultLookAndFeel = False
         Me.GridControl1.MainView = Me.GridView1
@@ -618,33 +618,33 @@ Partial Class frmRelPosicaoEstoque
         Me.GridView1.Appearance.VertLine.BackColor = System.Drawing.Color.FromArgb(CType(CType(99, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(196, Byte), Integer))
         Me.GridView1.Appearance.VertLine.Options.UseBackColor = True
         Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn1, Me.GridColumn2, Me.GridColumn33, Me.GridColumn3, Me.GridColumn4, Me.GridColumn5, Me.GridColumn6, Me.GridColumn24, Me.GridColumn7, Me.GridColumn8, Me.GridColumn23, Me.GridColumn22, Me.GridColumn9, Me.GridColumn18, Me.GridColumn19, Me.GridColumn20, Me.GridColumn21, Me.GridColumn31, Me.GridColumn35})
-        StyleFormatCondition1.Appearance.BackColor = System.Drawing.Color.Red
-        StyleFormatCondition1.Appearance.BackColor2 = System.Drawing.Color.Red
-        StyleFormatCondition1.Appearance.Options.UseBackColor = True
-        StyleFormatCondition1.Column = Me.GridColumn7
-        StyleFormatCondition1.Condition = DevExpress.XtraGrid.FormatConditionEnum.Less
-        StyleFormatCondition1.Value1 = New Decimal(New Integer() {0, 0, 0, 0})
-        StyleFormatCondition1.Value2 = New Decimal(New Integer() {0, 0, 0, 0})
-        StyleFormatCondition2.Appearance.BackColor = System.Drawing.Color.Red
-        StyleFormatCondition2.Appearance.BackColor2 = System.Drawing.Color.Red
-        StyleFormatCondition2.Appearance.Options.UseBackColor = True
-        StyleFormatCondition2.Column = Me.GridColumn8
-        StyleFormatCondition2.Condition = DevExpress.XtraGrid.FormatConditionEnum.Less
-        StyleFormatCondition2.Value1 = 0
-        StyleFormatCondition2.Value2 = 0
-        StyleFormatCondition3.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        StyleFormatCondition3.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        StyleFormatCondition3.Appearance.Options.UseBackColor = True
-        StyleFormatCondition3.ApplyToRow = True
-        StyleFormatCondition3.Column = Me.GridColumn19
-        StyleFormatCondition3.Condition = DevExpress.XtraGrid.FormatConditionEnum.NotEqual
-        StyleFormatCondition4.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        StyleFormatCondition4.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        StyleFormatCondition4.Appearance.Options.UseBackColor = True
-        StyleFormatCondition4.ApplyToRow = True
-        StyleFormatCondition4.Column = Me.GridColumn21
-        StyleFormatCondition4.Condition = DevExpress.XtraGrid.FormatConditionEnum.NotEqual
-        Me.GridView1.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition1, StyleFormatCondition2, StyleFormatCondition3, StyleFormatCondition4})
+        StyleFormatCondition5.Appearance.BackColor = System.Drawing.Color.Red
+        StyleFormatCondition5.Appearance.BackColor2 = System.Drawing.Color.Red
+        StyleFormatCondition5.Appearance.Options.UseBackColor = True
+        StyleFormatCondition5.Column = Me.GridColumn7
+        StyleFormatCondition5.Condition = DevExpress.XtraGrid.FormatConditionEnum.Less
+        StyleFormatCondition5.Value1 = New Decimal(New Integer() {0, 0, 0, 0})
+        StyleFormatCondition5.Value2 = New Decimal(New Integer() {0, 0, 0, 0})
+        StyleFormatCondition6.Appearance.BackColor = System.Drawing.Color.Red
+        StyleFormatCondition6.Appearance.BackColor2 = System.Drawing.Color.Red
+        StyleFormatCondition6.Appearance.Options.UseBackColor = True
+        StyleFormatCondition6.Column = Me.GridColumn8
+        StyleFormatCondition6.Condition = DevExpress.XtraGrid.FormatConditionEnum.Less
+        StyleFormatCondition6.Value1 = 0
+        StyleFormatCondition6.Value2 = 0
+        StyleFormatCondition7.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        StyleFormatCondition7.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        StyleFormatCondition7.Appearance.Options.UseBackColor = True
+        StyleFormatCondition7.ApplyToRow = True
+        StyleFormatCondition7.Column = Me.GridColumn19
+        StyleFormatCondition7.Condition = DevExpress.XtraGrid.FormatConditionEnum.NotEqual
+        StyleFormatCondition8.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        StyleFormatCondition8.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        StyleFormatCondition8.Appearance.Options.UseBackColor = True
+        StyleFormatCondition8.ApplyToRow = True
+        StyleFormatCondition8.Column = Me.GridColumn21
+        StyleFormatCondition8.Condition = DevExpress.XtraGrid.FormatConditionEnum.NotEqual
+        Me.GridView1.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition5, StyleFormatCondition6, StyleFormatCondition7, StyleFormatCondition8})
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         Me.GridView1.OptionsView.ColumnAutoWidth = False

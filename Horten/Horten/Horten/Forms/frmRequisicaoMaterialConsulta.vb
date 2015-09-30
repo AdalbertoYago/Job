@@ -1,4 +1,5 @@
 ﻿Imports DevExpress.XtraReports.UI
+Imports DevExpress.XtraPrinting
 Public Class frmRequisicaoMaterialConsulta
     Public ds As New DataSet()
     Public conn As New PrismaLibrary.ClassSqlConnection
@@ -13,7 +14,6 @@ Public Class frmRequisicaoMaterialConsulta
     Public Sub carregaRequisicao()
         conSQL2 = conn.sqlConnect(gDataSource, gUserID, gPWD, gInitialCatalog)
         ds.Clear()
-        'adaptSQL = New SqlClient.SqlDataAdapter("Select a.*,b.Requisitante,b.DTRequisicao,b.HRRequisicao,b.Historico,b.Aprovacao,b.DTRequisicao,b.Setor,c.Endereco from ItemReq a, Requisicao b , EstoqueEndereco c where a.CDRequisicao=b.CDRequisicao and c.CDProduto=a.CDMaterial order by CDRequisicao desc", conSQL2)
         adaptSQL = New SqlClient.SqlDataAdapter("Select a.*,b.Requisitante,b.DTRequisicao,b.HRRequisicao,b.Historico,b.Aprovacao,b.DTRequisicao,b.Setor from ItemReq a, Requisicao b where a.CDRequisicao=b.CDRequisicao order by CDRequisicao desc", conSQL2)
         adaptSQL.Fill(ds, "ItemReq")
         GridControl1.DataSource = ds.Tables("ItemReq")
@@ -107,5 +107,34 @@ Public Class frmRequisicaoMaterialConsulta
 
     Private Sub SimpleButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SimpleButton3.Click
         carregaRequisicao()
+    End Sub
+
+    Private Sub SimpleButton4_Click(sender As Object, e As EventArgs) Handles BTImprimirGrade.Click
+
+        Dim ps As New PrintingSystem
+        With ps
+            .ShowPrintStatusDialog = False
+            .SetCommandVisibility(PrintingSystemCommand.File, CommandVisibility.None)
+            .SetCommandVisibility(PrintingSystemCommand.View, CommandVisibility.None)
+            .SetCommandVisibility(PrintingSystemCommand.Background, CommandVisibility.None)
+        End With
+        Dim link As New PrintableComponentLink(ps)
+        link.Component = GridView1.GridControl
+        link.Landscape = True
+        link.PaperKind = Printing.PaperKind.A4
+        link.Margins.Top = 40
+        link.Margins.Bottom = 10
+        link.Margins.Left = AutoSizeMode
+        link.Margins.Right = AutoSizeMode
+
+        link.EnablePageDialog = True
+        Dim HeaderArea As DevExpress.XtraPrinting.PageHeaderArea = New DevExpress.XtraPrinting.PageHeaderArea
+        HeaderArea.Content.Add("Requisição de Material")
+        HeaderArea.Font = New Font("Arial", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
+        HeaderArea.LineAlignment = BrickAlignment.Center
+        Dim Header As DevExpress.XtraPrinting.PageHeaderFooter = New DevExpress.XtraPrinting.PageHeaderFooter(HeaderArea, Nothing)
+        link.PageHeaderFooter = Header
+        link.CreateDocument()
+        link.ShowPreviewDialog()
     End Sub
 End Class

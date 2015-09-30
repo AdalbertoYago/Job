@@ -20,7 +20,7 @@ Public Class relOndeUsa
         End Try
         XrPictureBox1.ImageUrl = gLogoDanfe
         XrLEmpresa.Text = StrConv(gNomeEmpresa, VbStrConv.ProperCase)
-        XrLabel1.Text = "Onde Usa - Material: " & sCDMaterial & " - " & sDescricaoMaterial
+        XrLabel1.Text = "Onde Usa - Material: " & sDescricaoMaterial
 
         conSQL = conn.sqlConnect(gDataSource, gUserID, gPWD, gInitialCatalog)
         conSQL.Open()
@@ -28,8 +28,8 @@ Public Class relOndeUsa
 
         'Produto
         If sTipo <> 4 Then
-            gVSQL = "Select Estrutura.*,Produtos.Descricao as Descricao2 From Estrutura Left Join Produtos On Estrutura.CDProduto = Produtos.CDProduto And Produtos.Cenario = 1 "
-            gVSQL &= "Where Estrutura.Cenario = 1 and CDMaterial = '" & sCDMaterial & "' Order By Estrutura.CDProduto"
+            gVSQL = "Select Estrutura.*,Estoque.Descricao as Descricao2 From Estrutura Left Join Estoque On Estrutura.CDProduto = Estoque.CDProduto "
+            gVSQL &= "Where CDMaterial = '" & sCDMaterial & "' Order By Estrutura.CDProduto"
         Else
             gVSQL = "Select EstruturaSubCJ.*,Estoque.Descricao as Descricao2 From EstruturaSUBCJ Left Join Estoque On EstruturaSubCJ.CDProduto = Estoque.CDProduto "
             gVSQL &= "Where CDItem = '" & sCDMaterial & "' Order By EstruturaSubCJ.CDProduto"

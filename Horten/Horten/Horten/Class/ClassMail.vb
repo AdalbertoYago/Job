@@ -57,7 +57,7 @@ Public Class ClassMail
                     'mSmtpClient.EnableSsl = False
                     mSmtpClient.Send(mMailMessage)
                 Else
-                    mSmtpClient.Host = "200.201.195.10"
+                    mSmtpClient.Host = "mail.classica.com.br"
                     mSmtpClient.Credentials = New System.Net.NetworkCredential("alex@classica.com.br", "haunted")
                     'mSmtpClient.UseDefaultCredentials = False
                     mSmtpClient.Port = 587

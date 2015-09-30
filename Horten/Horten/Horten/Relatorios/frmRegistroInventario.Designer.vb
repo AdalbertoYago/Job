@@ -22,7 +22,7 @@ Partial Class frmRegistroInventario
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim StyleFormatCondition2 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
+        Dim StyleFormatCondition1 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
         Me.cbEmpresas = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.BTImpFicha = New DevExpress.XtraEditors.SimpleButton()
@@ -38,13 +38,9 @@ Partial Class frmRegistroInventario
         Me.GridColumn8 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn6 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.cbTipoEstoque = New System.Windows.Forms.ComboBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.GridColumn9 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn10 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn11 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.BTExportarTXT = New DevExpress.XtraEditors.SimpleButton()
+        Me.GridColumn7 = New DevExpress.XtraGrid.Columns.GridColumn()
         CType(Me.tbData.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tbData.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -212,18 +208,18 @@ Partial Class frmRegistroInventario
         Me.GridView1.Appearance.VertLine.Options.UseBackColor = True
         Me.GridView1.AppearancePrint.Row.Font = New System.Drawing.Font("Tahoma", 7.0!)
         Me.GridView1.AppearancePrint.Row.Options.UseFont = True
-        Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn14, Me.GridColumn4, Me.GridColumn5, Me.GridColumn11, Me.GridColumn10, Me.GridColumn8, Me.GridColumn6, Me.GridColumn1, Me.GridColumn9, Me.GridColumn3})
+        Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn14, Me.GridColumn4, Me.GridColumn5, Me.GridColumn8, Me.GridColumn6, Me.GridColumn1, Me.GridColumn2, Me.GridColumn3, Me.GridColumn7})
         Me.GridView1.CustomizationFormBounds = New System.Drawing.Rectangle(980, 511, 216, 178)
-        StyleFormatCondition2.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        StyleFormatCondition2.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        StyleFormatCondition2.Appearance.ForeColor = System.Drawing.Color.Black
-        StyleFormatCondition2.Appearance.Options.UseBackColor = True
-        StyleFormatCondition2.Appearance.Options.UseForeColor = True
-        StyleFormatCondition2.ApplyToRow = True
-        StyleFormatCondition2.Condition = DevExpress.XtraGrid.FormatConditionEnum.Equal
-        StyleFormatCondition2.Value1 = "Imediato"
-        StyleFormatCondition2.Value2 = "Imediato"
-        Me.GridView1.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition2})
+        StyleFormatCondition1.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        StyleFormatCondition1.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        StyleFormatCondition1.Appearance.ForeColor = System.Drawing.Color.Black
+        StyleFormatCondition1.Appearance.Options.UseBackColor = True
+        StyleFormatCondition1.Appearance.Options.UseForeColor = True
+        StyleFormatCondition1.ApplyToRow = True
+        StyleFormatCondition1.Condition = DevExpress.XtraGrid.FormatConditionEnum.Equal
+        StyleFormatCondition1.Value1 = "Imediato"
+        StyleFormatCondition1.Value2 = "Imediato"
+        Me.GridView1.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition1})
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.GroupSummary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "ValorTotal", Nothing, "{0:c2}")})
         Me.GridView1.Name = "GridView1"
@@ -245,7 +241,7 @@ Partial Class frmRegistroInventario
         Me.GridColumn14.FieldName = "CDClasF"
         Me.GridColumn14.Name = "GridColumn14"
         Me.GridColumn14.Visible = True
-        Me.GridColumn14.VisibleIndex = 2
+        Me.GridColumn14.VisibleIndex = 0
         Me.GridColumn14.Width = 94
         '
         'GridColumn4
@@ -258,7 +254,7 @@ Partial Class frmRegistroInventario
         Me.GridColumn4.FieldName = "CDProduto"
         Me.GridColumn4.Name = "GridColumn4"
         Me.GridColumn4.Visible = True
-        Me.GridColumn4.VisibleIndex = 0
+        Me.GridColumn4.VisibleIndex = 1
         Me.GridColumn4.Width = 83
         '
         'GridColumn5
@@ -273,7 +269,7 @@ Partial Class frmRegistroInventario
         Me.GridColumn5.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.[False]
         Me.GridColumn5.OptionsFilter.AllowFilter = False
         Me.GridColumn5.Visible = True
-        Me.GridColumn5.VisibleIndex = 1
+        Me.GridColumn5.VisibleIndex = 2
         Me.GridColumn5.Width = 331
         '
         'GridColumn8
@@ -286,7 +282,7 @@ Partial Class frmRegistroInventario
         Me.GridColumn8.FieldName = "Unidade"
         Me.GridColumn8.Name = "GridColumn8"
         Me.GridColumn8.Visible = True
-        Me.GridColumn8.VisibleIndex = 6
+        Me.GridColumn8.VisibleIndex = 3
         Me.GridColumn8.Width = 57
         '
         'GridColumn6
@@ -306,7 +302,7 @@ Partial Class frmRegistroInventario
         Me.GridColumn6.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.[False]
         Me.GridColumn6.OptionsFilter.AllowFilter = False
         Me.GridColumn6.Visible = True
-        Me.GridColumn6.VisibleIndex = 5
+        Me.GridColumn6.VisibleIndex = 4
         Me.GridColumn6.Width = 72
         '
         'GridColumn1
@@ -321,8 +317,24 @@ Partial Class frmRegistroInventario
         Me.GridColumn1.FieldName = "Valor"
         Me.GridColumn1.Name = "GridColumn1"
         Me.GridColumn1.Visible = True
-        Me.GridColumn1.VisibleIndex = 7
+        Me.GridColumn1.VisibleIndex = 5
         Me.GridColumn1.Width = 97
+        '
+        'GridColumn2
+        '
+        Me.GridColumn2.AppearanceCell.Options.UseTextOptions = True
+        Me.GridColumn2.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.GridColumn2.AppearanceHeader.Options.UseTextOptions = True
+        Me.GridColumn2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.GridColumn2.Caption = "Parcial"
+        Me.GridColumn2.DisplayFormat.FormatString = "n"
+        Me.GridColumn2.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.GridColumn2.FieldName = "Parcial"
+        Me.GridColumn2.Name = "GridColumn2"
+        Me.GridColumn2.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "Parcial", "{0:n2}")})
+        Me.GridColumn2.Visible = True
+        Me.GridColumn2.VisibleIndex = 6
+        Me.GridColumn2.Width = 100
         '
         'GridColumn3
         '
@@ -337,83 +349,30 @@ Partial Class frmRegistroInventario
         Me.GridColumn3.Name = "GridColumn3"
         Me.GridColumn3.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "VLICMS", "{0:n2}")})
         Me.GridColumn3.Visible = True
-        Me.GridColumn3.VisibleIndex = 9
+        Me.GridColumn3.VisibleIndex = 7
         Me.GridColumn3.Width = 90
         '
-        'cbTipoEstoque
+        'GridColumn7
         '
-        Me.cbTipoEstoque.FormattingEnabled = True
-        Me.cbTipoEstoque.Location = New System.Drawing.Point(640, 19)
-        Me.cbTipoEstoque.Name = "cbTipoEstoque"
-        Me.cbTipoEstoque.Size = New System.Drawing.Size(279, 21)
-        Me.cbTipoEstoque.TabIndex = 101
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(640, 3)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(85, 13)
-        Me.Label2.TabIndex = 100
-        Me.Label2.Text = "Tipo de Estoque"
-        '
-        'GridColumn9
-        '
-        Me.GridColumn9.AppearanceCell.Options.UseTextOptions = True
-        Me.GridColumn9.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
-        Me.GridColumn9.AppearanceHeader.Options.UseTextOptions = True
-        Me.GridColumn9.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.GridColumn9.Caption = "ICMS"
-        Me.GridColumn9.FieldName = "ICMS"
-        Me.GridColumn9.Name = "GridColumn9"
-        Me.GridColumn9.Visible = True
-        Me.GridColumn9.VisibleIndex = 8
-        '
-        'GridColumn10
-        '
-        Me.GridColumn10.AppearanceCell.Options.UseTextOptions = True
-        Me.GridColumn10.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.GridColumn10.AppearanceHeader.Options.UseTextOptions = True
-        Me.GridColumn10.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.GridColumn10.Caption = "Descrição Grupo"
-        Me.GridColumn10.FieldName = "DescricaoGrupo"
-        Me.GridColumn10.Name = "GridColumn10"
-        Me.GridColumn10.Visible = True
-        Me.GridColumn10.VisibleIndex = 4
-        Me.GridColumn10.Width = 122
-        '
-        'GridColumn11
-        '
-        Me.GridColumn11.AppearanceCell.Options.UseTextOptions = True
-        Me.GridColumn11.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.GridColumn11.AppearanceHeader.Options.UseTextOptions = True
-        Me.GridColumn11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.GridColumn11.Caption = "Grupo"
-        Me.GridColumn11.FieldName = "Grupo"
-        Me.GridColumn11.Name = "GridColumn11"
-        Me.GridColumn11.Visible = True
-        Me.GridColumn11.VisibleIndex = 3
-        Me.GridColumn11.Width = 45
-        '
-        'BTExportarTXT
-        '
-        Me.BTExportarTXT.ImageIndex = 0
-        Me.BTExportarTXT.Location = New System.Drawing.Point(925, 10)
-        Me.BTExportarTXT.LookAndFeel.SkinName = "Money Twins"
-        Me.BTExportarTXT.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.BTExportarTXT.Name = "BTExportarTXT"
-        Me.BTExportarTXT.Size = New System.Drawing.Size(80, 32)
-        Me.BTExportarTXT.TabIndex = 102
-        Me.BTExportarTXT.Text = "Exportar TXT"
+        Me.GridColumn7.AppearanceCell.Options.UseTextOptions = True
+        Me.GridColumn7.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.GridColumn7.AppearanceHeader.Options.UseTextOptions = True
+        Me.GridColumn7.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.GridColumn7.Caption = "Líquido"
+        Me.GridColumn7.DisplayFormat.FormatString = "n"
+        Me.GridColumn7.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.GridColumn7.FieldName = "VLLiquido"
+        Me.GridColumn7.Name = "GridColumn7"
+        Me.GridColumn7.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "VLLiquido", "{0:n2}")})
+        Me.GridColumn7.Visible = True
+        Me.GridColumn7.VisibleIndex = 8
+        Me.GridColumn7.Width = 98
         '
         'frmRegistroInventario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1119, 561)
-        Me.Controls.Add(Me.BTExportarTXT)
-        Me.Controls.Add(Me.cbTipoEstoque)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.cbEmpresas)
         Me.Controls.Add(Me.Label3)
@@ -447,11 +406,7 @@ Partial Class frmRegistroInventario
     Friend WithEvents GridColumn4 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn8 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn1 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GridColumn2 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn3 As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents cbTipoEstoque As System.Windows.Forms.ComboBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents GridColumn9 As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents GridColumn11 As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents GridColumn10 As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents BTExportarTXT As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents GridColumn7 As DevExpress.XtraGrid.Columns.GridColumn
 End Class

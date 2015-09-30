@@ -68,6 +68,13 @@ Public Class frmRelPosicaoEstoque
             gVSQL = "select a.CDProduto,a.Descricao,a.Unidade,a.Minimo,a.Maximo,a.LeadTime,a.CDComprador, a.CDFornec1, a.ClassificacaoABC, "
             gVSQL &= " (select top 1 b.saldo from Kardex b where a.CDProduto=b.CDProduto and b.Data >= convert(datetime,'01/01/2012',103)  order by registro desc) as Qtde, "
             gVSQL &= " (select top 1 b.imp from Kardex b where a.CDProduto=b.CDProduto) as Imp, "
+
+            gVSQL &= " (select sum(e.saldo) from itemOC e where e.saldo>0 and e.CDCodigo=a.CDProduto) as SaldoOCA,"
+            gVSQL &= " (select top 1 CDOC from itemOC f where f.saldo>0 and f.CDCodigo=a.CDProduto ) as OCA,"
+            gVSQL &= " (select sum(g.saldo) from Prisma2.dbo.itemOC g where g.saldo>0 and g.CDCodigo=a.CDProduto) as SaldoOCB,"
+            gVSQL &= " (select Top 1 Endereco from Prisma.dbo.EstoqueEndereco where CDProduto = a.CDProduto) As EnderecoEstoque,"
+            gVSQL &= " (select Top 1 Sum(QTde) From Prisma.dbo.Estrutura where CDProduto = a.CDProduto) As EnderecoEstoque,"
+            gVSQL &= " (select top 1 CDOC from Prisma2.dbo.itemOC h where h.saldo>0 and h.CDCodigo=a.CDProduto ) as OCB "
         Else
             gVSQL = "select a.CDProduto,a.Descricao,a.Unidade,a.Minimo,a.Maximo,a.LeadTime,a.CDComprador, a.CDFornec1, a.ClassificacaoABC, "
             gVSQL &= " (select top 1 b.saldo from Kardex b where a.CDProduto=b.CDProduto and b.Data >= convert(datetime,'01/01/2012',103)  order by registro desc) as Qtde, "
@@ -226,13 +233,14 @@ Public Class frmRelPosicaoEstoque
     Private Sub GridControl1_KeyUp(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles GridControl1.KeyUp
         Dim row As System.Data.DataRow = GridView1.GetDataRow(GridView1.FocusedRowHandle)
         Dim sCDProduto As String
-        Try
-            sCDProduto = row("CDProduto")
-            carregaGrids(sCDProduto)
-        Catch ex As Exception
-            sCDProduto = ""
-        End Try
-
+        If e.KeyCode = Keys.Enter Then
+            Try
+                sCDProduto = row("CDProduto")
+                carregaGrids(sCDProduto)
+            Catch ex As Exception
+                sCDProduto = ""
+            End Try
+        End If
         If e.KeyCode = Keys.Delete Then
             Try
                 row.Delete()

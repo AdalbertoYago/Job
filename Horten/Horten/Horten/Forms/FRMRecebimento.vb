@@ -23,6 +23,7 @@ Public Class FRMRecebimento
     End Sub
     Private Sub BTSair_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTSair.Click
         Me.Close()
+
     End Sub
     Private Sub MontaQuery()
         If XtraTabControl1.SelectedTabPage.Text = "Ordens de Compra" Then
@@ -266,23 +267,21 @@ Public Class FRMRecebimento
             .SetCommandVisibility(PrintingSystemCommand.Background, CommandVisibility.None)
         End With
         Dim link As New PrintableComponentLink(ps)
-        link.Component = GridView1.GridControl
+        link.Component = GridView2.GridControl
+        link.Landscape = True
+        link.PaperKind = System.Drawing.Printing.PaperKind.A4
         link.Margins.Top = 40
+        link.Margins.Bottom = 10
         link.Margins.Left = 10
         link.Margins.Right = 10
-        link.Margins.Bottom = 10
-        link.Landscape = True
         link.EnablePageDialog = True
-
         Dim HeaderArea As DevExpress.XtraPrinting.PageHeaderArea = New DevExpress.XtraPrinting.PageHeaderArea
-        HeaderArea.Content.Add(Date.Now.ToShortDateString())
         HeaderArea.Content.Add("RECEBIMENTO DE MATERIAIS")
-        HeaderArea.Content.Add("Pagina[Page # of Pages #]")
-        HeaderArea.Font = New Font("Arial", 11.0F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        HeaderArea.Font = New Font("Arial", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         HeaderArea.LineAlignment = BrickAlignment.Center
         Dim Header As DevExpress.XtraPrinting.PageHeaderFooter = New DevExpress.XtraPrinting.PageHeaderFooter(HeaderArea, Nothing)
         link.PageHeaderFooter = Header
-        link.CreateDocument()
+        'link.CreateDocument()
         link.ShowPreviewDialog()
     End Sub
     Private Sub BTAlterar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTAlterar.Click

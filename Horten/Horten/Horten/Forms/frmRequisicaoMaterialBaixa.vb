@@ -13,13 +13,8 @@
     Public Sub carregaRequisicao()
         conSQL2 = conn.sqlConnect(gDataSource, gUserID, gPWD, gInitialCatalog)
         ds.Clear()
-        gVSQL = "Select b.*,a.Requisitante,a.Historico,a.DTRequisicao,a.HRRequisicao,a.Aprovacao,a.Setor "
-        gVSQL &= "From Requisicao A,ItemReq B "
-        gVSQL &= "Where a.CDRequisicao = b.CDRequisicao and b.DTBaixa is NULL and Len(b.Descricao) > 0 and DTRequisicao > convert(datetime,'01/01/2011',103) order by a.CDRequisicao desc"
-
-        'gVSQL = "Select a.*,b.Requisitante,b.Historico,b.DTRequisicao,b.HRRequisicao,b.Aprovacao,b.Setor,c.Endereco from ItemReq a, Requisicao b, EstoqueEndereco c "
-        'gVSQL &= "where a.CDRequisicao=b.CDRequisicao and a.DTBaixa is NULL and Len(a.Descricao) > 0 and DTRequisicao > convert(datetime,'01/01/2011',103) order by CDRequisicao desc"
-        'gVSQL &= "where a.CDRequisicao=b.CDRequisicao and a.DTBaixa is NULL and Len(a.Descricao) > 0 and DTRequisicao > convert(datetime,'01/01/2011',103) and c.CDProduto=a.CDMaterial order by CDRequisicao desc"
+        gVSQL = "Select a.*,b.Requisitante,b.Historico,b.DTRequisicao,b.HRRequisicao,b.Aprovacao,b.Setor from ItemReq a, Requisicao b "
+        gVSQL &= "where a.CDRequisicao=b.CDRequisicao and a.DTBaixa is NULL and Len(a.Descricao) > 0 and DTRequisicao > convert(datetime,'01/01/2011',103) order by CDRequisicao desc"
 
         adaptSQL = New SqlClient.SqlDataAdapter(gVSQL, conSQL2)
         adaptSQL.Fill(ds, "ItemReq")

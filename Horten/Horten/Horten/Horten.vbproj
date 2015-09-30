@@ -19,17 +19,17 @@
     <OptionInfer>On</OptionInfer>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <ApplicationIcon>logo24x24.ico</ApplicationIcon>
-    <ManifestCertificateThumbprint>8B78E7A9EB35B223B3F931C7076EA7C83395E988</ManifestCertificateThumbprint>
-    <ManifestKeyFile>Horten_34_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestCertificateThumbprint>8D65AF2CCC6A956F22341AD4CB71306D9FB8F618</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Horten_22_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
     <TargetFrameworkProfile />
-    <PublishUrl>\\192.168.0.254\base\SetupSQL\Estoque.Net\</PublishUrl>
+    <PublishUrl>\\192.168.1.254\base\SetupSQL\Estoque.Net\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Unc</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -39,11 +39,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>\\192.168.0.254\base\SetupSQL\Estoque.Net\</InstallUrl>
     <ProductName>Controle de Estoque</ProductName>
     <PublisherName>Horten.net</PublisherName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>86</ApplicationRevision>
+    <ApplicationRevision>68</ApplicationRevision>
     <ApplicationVersion>1.2.9.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -69,13 +68,6 @@
     <DocumentationFile>Horten.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <Prefer32Bit>true</Prefer32Bit>
-    <RunCodeAnalysis>false</RunCodeAnalysis>
-  </PropertyGroup>
-  <PropertyGroup>
-    <TargetZone>LocalIntranet</TargetZone>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -385,7 +377,7 @@
     <Compile Include="Relatorios\frmRelCusto.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Relatorios\frmRelPosicaoEstoque.Designer.vb">
+    <Compile Include="Relatorios\frmRelPosicaoEstoque.designer.vb">
       <DependentUpon>frmRelPosicaoEstoque.vb</DependentUpon>
     </Compile>
     <Compile Include="Relatorios\frmRelPosicaoEstoque.vb">
@@ -589,7 +581,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Relatorios\frmRelPosicaoEstoque.resx">
       <DependentUpon>frmRelPosicaoEstoque.vb</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Relatorios\ReportAlado.resx">
       <DependentUpon>ReportAlado.vb</DependentUpon>
@@ -638,19 +629,6 @@
     <None Include="Horten_20_TemporaryKey.pfx" />
     <None Include="Horten_21_TemporaryKey.pfx" />
     <None Include="Horten_22_TemporaryKey.pfx" />
-    <None Include="Horten_23_TemporaryKey.pfx" />
-    <None Include="Horten_24_TemporaryKey.pfx" />
-    <None Include="Horten_25_TemporaryKey.pfx" />
-    <None Include="Horten_26_TemporaryKey.pfx" />
-    <None Include="Horten_27_TemporaryKey.pfx" />
-    <None Include="Horten_28_TemporaryKey.pfx" />
-    <None Include="Horten_29_TemporaryKey.pfx" />
-    <None Include="Horten_30_TemporaryKey.pfx" />
-    <None Include="Horten_31_TemporaryKey.pfx" />
-    <None Include="Horten_32_TemporaryKey.pfx" />
-    <None Include="Horten_33_TemporaryKey.pfx" />
-    <None Include="Horten_34_TemporaryKey.pfx" />
-    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

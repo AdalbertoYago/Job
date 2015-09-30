@@ -22,20 +22,20 @@ Partial Class frmEstruturaBaixaMP
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
-        Me.bt0Buscar = New DevExpress.XtraEditors.SimpleButton()
-        Me.lblDescricao = New System.Windows.Forms.Label()
-        Me.txtCDProduto = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
-        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.bt0Imprimir = New DevExpress.XtraEditors.SimpleButton()
-        Me.bt0Copiar = New DevExpress.XtraEditors.SimpleButton()
+        Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl
+        Me.bt0Buscar = New DevExpress.XtraEditors.SimpleButton
+        Me.lblDescricao = New System.Windows.Forms.Label
+        Me.txtCDProduto = New System.Windows.Forms.TextBox
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.GridControl1 = New DevExpress.XtraGrid.GridControl
+        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView
+        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton
+        Me.bt0Imprimir = New DevExpress.XtraEditors.SimpleButton
+        Me.bt0Copiar = New DevExpress.XtraEditors.SimpleButton
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -178,6 +178,7 @@ Partial Class frmEstruturaBaixaMP
         Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn1, Me.GridColumn2, Me.GridColumn3, Me.GridColumn4})
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
+        Me.GridView1.OptionsPrint.UsePrintStyles = True
         Me.GridView1.OptionsView.EnableAppearanceEvenRow = True
         Me.GridView1.OptionsView.EnableAppearanceOddRow = True
         Me.GridView1.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Top

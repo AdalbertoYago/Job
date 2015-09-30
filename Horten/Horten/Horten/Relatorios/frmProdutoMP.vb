@@ -9,6 +9,10 @@ Public Class frmProdutoMP
     Private Sub SimpleButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SimpleButton1.Click
         Me.Close()
     End Sub
+
+
+
+
     Private Sub bt0Imprimir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bt0Imprimir.Click
         Dim ps As New PrintingSystem
         With ps
@@ -35,6 +39,11 @@ Public Class frmProdutoMP
         link.CreateDocument()
         link.ShowPreviewDialog()
     End Sub
+
+    Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
     Private Sub bt0Buscar_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bt0Buscar.Click
         GridView1.ExpandAllGroups()
         conSQL = conn.sqlConnect(gDataSource, gUserID, gPWD, gInitialCatalog)
@@ -58,7 +67,7 @@ Public Class frmProdutoMP
         querySQL2.ExecuteNonQuery()
 
 
-        gVSQL = "Insert Into TMP_PivotPedidoMP select sum(b.qtde) as Soma, b.CDProduto, "
+        gVSQL = "insert into TMP_PivotPedidoMP select sum(b.qtde) as Soma, b.CDProduto, "
         gVSQL &= "(select c.descricao from estoque c where b.cdproduto=c.cdproduto) as descricao "
         gVSQL &= "from Prisma.dbo.NF a, Prisma.dbo.ItemNF b, NaturezaOperacao d  "
         gVSQL &= "where a.CDNF=b.CDNF and a.dis >= convert(datetime,'" & tbDe.Text & "',103) and a.dis <= convert(datetime,'" & tbAte.Text & "',103) "

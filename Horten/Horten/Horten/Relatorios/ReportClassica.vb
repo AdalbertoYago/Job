@@ -11,7 +11,7 @@ Public Class ReportClassica
 
         ''###SELECIONA NOME DE FUNCIONARIO
         querySQl.Connection = conSQL
-        querySQl.CommandText = "Select * from vetorh.dbo.R034FUN where numCra='" & gFunc & "' "
+        querySQl.CommandText = "Select * from vetorh.dbo.R034FUN where numCra='" & gFunc & "'"
         datRead2 = querySQl.ExecuteReader()
         If datRead2.Read = True Then
             Try

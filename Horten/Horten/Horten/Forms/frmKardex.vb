@@ -95,8 +95,7 @@ Public Class frmKardex
 
 
     Private Sub bt0ExcluirEndereco_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bt0ExcluirEndereco.Click
-        'If classParam.selPermissoes(234, gCDPerfil, gDataSource, gUserID, gPWD, gInitialCatalog) = True Then
-        If UCase(gUsuario) = "IVANILDO" Then
+        If classParam.selPermissoes(234, gCDPerfil, gDataSource, gUserID, gPWD, gInitialCatalog) = True Then
             Dim row As System.Data.DataRow = GridView1.GetDataRow(GridView1.FocusedRowHandle)
             Dim sRegistro As String
             Try
